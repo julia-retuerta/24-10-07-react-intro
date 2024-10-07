@@ -1,5 +1,13 @@
+import Button from './components/button/Button';
+
 const App = () => {
-  return <h1>REACT</h1>;
+  return (
+    <>
+      <Button>Click me</Button>
+      <Button>Accept</Button>
+      <Button>Cancel</Button>
+    </>
+  );
 };
 
 export default App;
